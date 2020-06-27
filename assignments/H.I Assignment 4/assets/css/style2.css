@@ -1,0 +1,112 @@
+body {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+
+/*[ Top bar ]
+===========================================================*/
+
+.top {
+    height: auto;
+    background: #152F4F;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.social_links,
+.slogan,
+.top_buttons {
+    background: #152F4F;
+
+
+}
+
+.social_links {
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.slogan {
+
+    margin-top: 15px;
+    color: white;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+.topbar-social-item {
+    font-size: 18px;
+    color: #888888;
+    padding: 10px;
+}
+  
+
+a{
+    color: #152F4F;
+  }
+
+  .card{
+    border-radius: 3px 3px 0 0;
+  }
+  .card img{
+    width: 280px;
+    height: 220px;
+  }
+
+/*[ Footer ]
+===========================================================*/
+.footer {
+    background: #152F4F;
+    color: white;
+  }
+  .footer .links ul {
+    list-style-type: none;
+  }
+  .footer .links li a {
+    color: white;
+    -webkit-transition: color .2s;
+    transition: color .2s;
+  }
+  .footer .links li a:hover {
+    text-decoration: none;
+    color: #4180CB;
+  }
+  .footer .about-company i {
+    font-size: 25px;
+  }
+  .footer .about-company a {
+    color: white;
+    -webkit-transition: color .2s;
+    transition: color .2s;
+  }
+  .footer .about-company a:hover {
+    color: #4180CB;
+  }
+  .footer .location i {
+    font-size: 18px;
+  }
+  .footer .copyright p {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  /*[ BG Title Page ]
+///////////////////////////////////////////////////////////
+*/
+.borders{
+    border:2px solid #152F4F;
+  }
+  
+  
+  
+  
+  
+  .bg-color{
+    background-color: #152F4F;
+  }

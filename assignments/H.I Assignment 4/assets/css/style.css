@@ -1,0 +1,388 @@
+body {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+
+/*[ Top bar ]
+===========================================================*/
+
+.top {
+    height: auto;
+    background: #152F4F;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.social_links,
+.slogan,
+.top_buttons {
+    background: #152F4F;
+
+
+}
+
+.social_links {
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.slogan {
+
+    margin-top: 15px;
+    color: white;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+.topbar-social-item {
+    font-size: 18px;
+    color: #888888;
+    padding: 10px;
+}
+  
+
+/*[ Home Cards ]
+===========================================================*/
+
+@media screen and ( max-width: 991px ) {
+  .img-res{
+    height: 400px;
+    width: 100%;
+  }
+}
+@media screen and ( min-width: 991px ) {
+  .img-res{
+    height: 550px;
+    width: 100%;
+  }
+}
+
+
+a{
+  color: #152F4F;
+}
+
+  .carousel-item-prev,
+.carousel-item-next,
+.carousel-item.active {
+    display:flex;
+}
+
+
+/* control image height */
+.card-img-top-250 {
+    max-height: 225px;
+    overflow:hidden;
+}
+
+/* smoother transitions */
+.carousel-inner>.carousel-item.next.left,
+.carousel-inner>.carousel-item.prev.right
+{
+    transition: all 1s ease;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+
+/*[ Footer ]
+===========================================================*/
+  .footer {
+    background: #152F4F;
+    color: white;
+  }
+  .footer .links ul {
+    list-style-type: none;
+  }
+  .footer .links li a {
+    color: white;
+    -webkit-transition: color .2s;
+    transition: color .2s;
+  }
+  .footer .links li a:hover {
+    text-decoration: none;
+    color: #4180CB;
+  }
+  .footer .about-company i {
+    font-size: 25px;
+  }
+  .footer .about-company a {
+    color: white;
+    -webkit-transition: color .2s;
+    transition: color .2s;
+  }
+  .footer .about-company a:hover {
+    color: #4180CB;
+  }
+  .footer .location i {
+    font-size: 18px;
+  }
+  .footer .copyright p {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+
+/*Product page cards*/
+
+  .card-product:after {
+    content: "";
+    display: table;
+    clear: both;
+    visibility: hidden; 
+  }
+
+  .card-product .price-new, .card-product .price {
+    margin-right: 5px; 
+  }
+
+  .card-product .price-old {
+    color: #999; 
+  }
+  .card-product .img-wrap {
+    border-radius: 3px 3px 0 0;
+    overflow: hidden;
+    position: relative;
+    height: 220px;
+    text-align: center; 
+  }
+    .card-product .img-wrap img {
+      max-height: 100%;
+      max-width: 100%;
+      object-fit: cover; 
+    }
+      
+      .card-product .info-wrap {
+    overflow: hidden;
+    padding: 15px;
+    border-top: 1px solid #eee; 
+  }
+  .card-product .action-wrap {
+    padding-top: 4px;
+    margin-top: 4px; 
+  }
+  .card-product .bottom-wrap {
+    padding: 15px;
+    border-top: 1px solid #eee; 
+  }
+  .card-product .title {
+    margin-top: 0; 
+  }
+
+
+  .flip-card {
+      background-color: white;
+      perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  }
+    
+  /* This container is needed to position the front and back side */
+  .flip-card-inner {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      text-align: center;
+      transition: transform 0.8s;
+      transform-style: preserve-3d;
+  }
+    
+    /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-card:hover .flip-card-inner {
+      transform: rotateY(180deg);
+  }
+    
+  /* Position the front and back side */
+  .flip-card-front, .flip-card-back {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      -webkit-backface-visibility: hidden; /* Safari */
+      backface-visibility: hidden;
+  }
+    
+  /* Style the front side (fallback if image is missing) */
+  .flip-card-front {
+      background-color: white;
+      color: black;
+  }
+    
+  /* Style the back side */
+  .flip-card-back {
+      background-color: #152F4F;
+      color: white;
+      transform: rotateY(180deg);
+  }
+    
+  .icon {
+      color: white;
+      font-size: 20px;
+      position: absolute;
+      top: 10%;
+      left: 90%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      text-align: center;
+  }
+    
+  /* When you move the mouse over the icon, change color */
+  .fa-heart:hover {
+      color: #eee;
+      cursor: pointer;
+  }
+    
+  .flip-card-image{
+        height: 250px;
+  }
+
+  .flip-image{
+        height: 285px;
+        width: 100%;
+        opacity: 0.5;
+  }
+
+  @media screen and ( max-width: 991px ) {
+    .flip-image{
+        height: 83%;
+        width: 100%;
+        opacity: 0.5;
+    }
+
+    .flip-small-image{
+        height: 285px;
+        width: 100%;
+        opacity: 0.5;
+    }
+  }
+    
+  .addCart{
+        align-self: end;
+    
+        
+  }
+
+
+
+/*Contact pagr*/
+#contact .card:hover i,#contact .card:hover h4{
+	color: #152F4F;
+}
+
+#contact{
+  background-color:#f1f1f1;
+  font-family: 'Roboto', sans-serif;
+}
+
+#contact .well{
+  margin-top:30px;
+  border-radius:0;
+}
+
+#contact .form-control{
+  border-radius: 0;
+  border:2px solid #152F4F;
+}
+
+#contact button{
+  border-radius:0;
+  border:2px solid #152F4F;
+}
+
+#contact .row{
+  margin-bottom:30px;
+}
+
+@media (max-width: 768px) { 
+  #contact iframe {
+      margin-bottom: 15px;
+  }
+  
+}
+
+
+
+/*Gallery page
+#BtnContainer{
+  margin: 10px auto;
+  text-align: center;
+}*/
+
+.box{
+  margin:15px 0px;
+  display: none;
+}
+.content {
+  background-color: white;
+  padding: 5px;
+  height:300px;
+  box-shadow: 0px 0px 5px 0px #c1c1c1;
+}
+.content img{
+  height: 100%;
+  width: 100%;
+}
+.show {
+  transition:0.5s;
+  display: block;
+}
+.btn {
+  border: none;
+  outline: none;
+  background-color: #152F4F;
+  color: white;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: #ddd;
+}
+.btn.active {
+  background-color: #152F4F;
+  color: white;
+}
+
+
+/*[ BG Title Page ]
+///////////////////////////////////////////////////////////
+*/
+.borders{
+  border:2px solid #152F4F;
+}
+
+.bg-color{
+  background-color: #152F4F;
+}
+.text-color{
+  color: #152F4F;
+  font-weight: bolder;
+  font-size: 25px;
+}

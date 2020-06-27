@@ -1,0 +1,47 @@
+#info{
+    font-size: 20px;
+    border: 5px black solid;
+    width: 220px;
+}
+#logo{
+    text-align: center;
+}
+#heading{
+    text-align: center;
+    text-decoration: underline solid;
+    text-decoration-color: indigo;
+    color: indigo;
+}
+table.center {
+    margin-left:auto; 
+    margin-right:auto;
+    color: white;
+    background-color: indigo;
+  }
+input{
+    height: 25px;
+}
+select{
+    height: 25px;
+}
+input[type=radio] , input[type=checkbox] {
+    
+    height: 12px;
+}
+#reset,#submit{
+    height: 50px;
+    width: 100px;
+}
+#successpage{
+    margin-top: 150px;
+    text-align: center;
+}
+p{
+    color: green;
+    font-size: 40px;
+}
+a{
+    color: indigo;
+    font-size: 30px;
+    text-decoration: bold;
+}
