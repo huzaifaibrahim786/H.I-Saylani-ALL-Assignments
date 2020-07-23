@@ -2,236 +2,536 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>H.I PORTFOLIO</title>
-
-    <script src="https://use.fontawesome.com/releases/v5.12.1/js/all.js" crossorigin="anonymous"></script>
-
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/bootstrap/js/bootstrap.min.js">
-    <link rel="stylesheet" href="css/progresscircle.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="assets/img/logo.jpg" type="image/icon type">
+
+
+
+    <style>
+        html,
+        body,
+        header,
+        .jarallax {
+            height: 100%;
+        }
+        
+        .cent {
+            margin-top: 20%;
+        }
+        
+        @media (min-width: 560px) and (max-width: 740px) {
+            html,
+            body,
+            header,
+            .jarallax {
+                height: 600px;
+            }
+            .cent {
+                margin-top: 10%;
+            }
+        }
+    </style>
+
 </head>
 
-<body id="page-top">
+<body class="developer">
+
+    <!--Navigation & Intro-->
+    <header>
 
 
-    <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
-        <div class="container">
-            <a class="navbar-brand js-scroll-trigger text-white" href="#page-top" style="font-weight: bold;">H.I PORTFOLIO</a><button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded" type="button"
-                data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">Menu <i class="fas fa-bars"></i></button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded text-white" style="font-weight: bold" ; href="#portfolio">Portfolio</a></li>
-                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded text-white" style="font-weight: bold" ; href="#skills">Skills</a></li>
-                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded text-white" style="font-weight: bold" ; href="#contact">Contact</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
 
-
-    <div class="masthead bg-dark text-white text-center">
-        <div class="container d-flex align-items-center flex-column mt-5">
-            <img class="masthead-avatar mb-5 mt-5" src="assets/img/1.png" alt="" style="width: 300px; height: 250px;" />
-            <!-- Masthead Heading-->
-            <h1 class="masthead-heading text-uppercase mb-0">Huzaifa Ibrahim</h1>
-            <h2 class="masthead-heading text-uppercase mb-0">Roll No : WM4358</h2>
-            <br>
-
-            <div class="divider-custom divider-light">
-                <div class="divider-custom-line"></div>
-                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                <div class="divider-custom-line"></div>
-            </div>
-
-            <h5 class="masthead-subheading font-weight-light mb-5">Welcome To My Portfolio</h5>
-        </div>
-    </div>
-
-
-    <section class="page-section bg-primary text-white mb-0 pt-5" id="skills">
-        <div class="container">
-
-            <h2 class="page-section-heading text-center text-uppercase text-white mt-5">MY SKILLS</h2>
-
-            <div class="divider-custom divider-light mb-5">
-                <div class="divider-custom-line"></div>
-                <div class="divider-custom-icon" style="text-align: center;"><i class="fas fa-star"></i></div>
-                <div class="divider-custom-line"></div>
-            </div>
-
-            <div class="row" style="margin: 0px auto;">
-                <div class="skills-area">
-                    <div class="single-skill col-sm-12 col-md-6 col-lg-3">
-                        <div class="circlechart" data-percentage="95"> HTML </div>
-                    </div>
-                    <div class="single-skill col-sm-12 col-md-6 col-lg-3">
-                        <div class="circlechart" data-percentage="85"> CSS </div>
-                    </div>
-                    <div class="single-skill col-sm-12 col-md-6 col-lg-3">
-                        <div class="circlechart" data-percentage="85"> BOOTSTRAP </div>
-
-                    </div>
-                    <div class="single-skill col-sm-12 col-md-6 col-lg-3">
-                        <div class="circlechart" data-percentage="30"> JAVASCRIPT </div>
-
-                    </div>
-                </div>
-            </div><br><br>
-
-            <div class="text-center mt-5 pb-5">
-                <a class="btn btn-xl btn-outline-light" href="https://www.saylaniwelfare.com/">THANK YOU SAYLANI</a>
-            </div>
-        </div>
-    </section>
-
-    <section class="page-section portfolio" id="portfolio">
-        <div class="container">
-
-            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0 mt-5">Portfolio</h2>
-
-            <div class="divider-custom">
-                <div class="divider-custom-line"></div>
-                <div class="divider-custom-icon" style="text-align: center;"><i class="fas fa-star"></i></div>
-                <div class="divider-custom-line"></div>
-            </div>
-
-            <div class="container mt-5">
-
-                <div class="row">
-                    <div class="col-md-3 col-sm-6" onclick="location.href='assignments/H.I Assignment 1/index.html';" style="cursor: pointer;">
-                        <div class="card card-block">
-
-                            <img src="https://static.pexels.com/photos/7096/people-woman-coffee-meeting.jpg" alt="Photo of sunset">
-                            <h5 class="card-title mt-3 mb-3">Assignment 1</h5>
-                            <p class="card-text">Assignment 1 is Periodic Table.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6" onclick="location.href='assignments/H.I Assignment 2/index.html';" style="cursor: pointer;">
-                        <div class="card card-block">
-
-                            <img src="https://static.pexels.com/photos/7357/startup-photos.jpg" alt="Photo of sunset">
-                            <h5 class="card-title  mt-3 mb-3">Assignment 2</h5>
-                            <p class="card-text">Assignment 2 is Registration Form.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6" onclick="location.href='assignments/H.I Assignment 3/index.html';" style="cursor: pointer;">
-                        <div class="card card-block">
-
-                            <img src="https://static.pexels.com/photos/262550/pexels-photo-262550.jpeg" alt="Photo of sunset">
-                            <h5 class="card-title  mt-3 mb-3">Assignment 3</h5>
-                            <p class="card-text">Assignment 3 is Saylani Welfare Home Page.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6" onclick="location.href='assignments/H.I Assignment 4/index.html';" style="cursor: pointer;">
-                        <div class="card card-block">
-
-                            <img src="https://static.pexels.com/photos/326424/pexels-photo-326424.jpeg" alt="Photo of sunset">
-                            <h5 class="card-title  mt-3 mb-3">Assignment 4</h5>
-                            <p class="card-text">Full Front End Website (Mobilez.Pk).</p>
+        <!-- Intro Section -->
+        <div id="home" class="view jarallax" data-jarallax='{"speed": 0.2}' style="background-image: url('https://mdbootstrap.com/img/Photos/Others/forest1.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
+            <div class="mask rgba-white-strong">
+                <div class="container h-100 d-flex justify-content-center align-items-center">
+                    <div class="row smooth-scroll">
+                        <div class="col-md-12 pt-5 mt-5">
+                            <div class="white-text text-center">
+                                <h1 class="display-2 mb-4 dark-grey-text wow fadeIn cent">I am <strong>Huzaifa Ibrahim</strong></h1>
+                                <h5 class="text-uppercase font-weight-bold wow fadeIn" data-wow-delay="0.4s"><mark>Web developer & graphic designer</mark></h5>
+                                <a href="#about" class="btn btn-floating btn-large wow fadeIn" data-wow-delay="0.4s" data-offset="100"><i class="fas fa-angle-down btn-large text-white bg-dark pt-3" aria-hidden="true"></i></a>
+                            </div>
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
+
+    </header>
+
+
+
+    <main>
+
+        <!-- About SECTION -->
+        <div class="container">
+
+
+            <section id="about" class="section feature-box mb-5">
+
+
+                <h2 class="text-center text-uppercase my-5 pt-5 wow fadeIn" data-wow-delay="0.2s">About <strong>me</strong></h2>
+
+                <p class="text-center w-responsive mx-auto wow fadeIn my-5" data-wow-delay="0.2s">Hi! I am Huzaifa Ibrahim, a web designer/developer focused on crafting great web experiences. Designing and Coding have been my passion since the days I started working with computers but I found myself into web design/development since
+                    2017. I enjoy creating beautifully designed, intuitive and functional websites.</p>
+
+
+                <div class="row features-big text-center wow fadeIn" data-wow-delay="0.4s">
+
+
+                    <div class="col-md-4 mb-5">
+
+
+                        <div class="card card-body hoverable">
+                            <i class="fas fa-laptop fa-3x mb-4" aria-hidden="true"></i>
+                            <h5 class="font-weight-bold text-uppercase mb-4">Freelancer</h5>
+                            <p class="dark-grey-text">I am a freelancer working on several platforms like Fiver, Upwork ...</p>
+                        </div>
+
+
+                    </div>
+
+
+
+                    <div class="col-md-4 mb-5">
+
+
+                        <div class="card card-body yellow hoverable">
+                            <i class="fas fa-code fa-3x mb-4" aria-hidden="true"></i>
+                            <h5 class="font-weight-bold text-uppercase mb-4">Developer</h5>
+                            <p class="dark-grey-text">I am a Mern Stack Developer having strong grip on frameworks of JavaScript</p>
+                        </div>
+
+
+                    </div>
+
+
+
+                    <div class="col-md-4 mb-5">
+
+
+                        <div class="card card-body hoverable">
+                            <i class="fas fa-pencil-alt fa-3x mb-4" aria-hidden="true"></i>
+                            <h5 class="font-weight-bold text-uppercase mb-4">Designer</h5>
+                            <p class="dark-grey-text">I am a Designer having skills of designing UI of Web and Mobile Applications.</p>
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+
+
+            </section>
+
+
+        </div>
+
+
+        <!--My Experience And Skills-->
+        <div class="container-fluid" style="background-color: #f3f3f5;">
+            <div class="container py-4 pt-4">
+
+
+                <section id="skills">
+
+
+                    <div class="row py-5">
+
+                        <!--First column-->
+                        <div class="col-lg-6 col-md-12 mb-3 wow fadeIn" data-wow-delay="0.4s">
+
+
+                            <div class="d-flex justify-content-start">
+                                <h4 class="text-center text-uppercase mb-5 pb-3 mt-4 wow fadeIn" data-wow-delay="0.2s">My <strong>Education</strong></h4>
+                            </div>
+
+
+                            <blockquote class="blockquote bq-warning mb-4">
+                                <div class="row"> <i class="fas fa-graduation-cap fa-x mb-1 mr-3 ml-3" aria-hidden="true"></i>
+                                    <h5 class="font-weight-bold mb-3">Bechelors In Computer Science</h5>
+                                </div>
+                                <p class="font-weight-bold ml-1 dark-grey-text mb-2">Feb, 2017 - Present (7 Semester Completed)</p>
+                                <p class="mb-0 ml-1 light-grey-text">I have completed my 7 Semester with 3.61 CGPA till yet. Now Only last Semester is remaining. </p>
+                            </blockquote>
+                            <br><br>
+                            <blockquote class="blockquote bq-warning mt-1 mb-4">
+                                <div class="row"> <i class="fas fa-graduation-cap fa-x mb-1 mr-3 ml-3" aria-hidden="true"></i>
+                                    <h5 class="font-weight-bold mb-3">Intermediate</h5>
+                                </div>
+                                <p class="font-weight-bold ml-1 dark-grey-text mb-2">June 2014 - June 2016 (2 years)</p>
+                                <p class="mb-0 ml-1 light-grey-text">I have cleared my Intermediate From Sindh Inter Board with A Grade.</p>
+                            </blockquote>
+                            <br><br>
+                            <blockquote class="blockquote bq-warning">
+                                <div class="row"> <i class="fas fa-graduation-cap fa-x mb-1 mr-3 ml-3" aria-hidden="true"></i>
+                                    <h5 class="font-weight-bold mb-3">Matriculation</h5>
+                                </div>
+                                <p class="font-weight-bold ml-1 dark-grey-text mb-2"><strong>March 2002 - April 2014 (12 years)</strong></p>
+                                <p class="mb-0 ml-1 light-grey-text">I have cleared my Matriculation from Sindh Matric Board with A Grade.</p>
+                            </blockquote>
+
+                        </div>
+
+
+
+                        <div class="col-lg-5 offset-lg-1 col-md-12 mb-4 wow fadeIn" data-wow-delay="0.4s">
+
+
+                            <div class="d-flex justify-content-start">
+                                <h4 class="text-center text-uppercase mb-5 pb-3 mt-4 wow fadeIn" data-wow-delay="0.2s">Development <strong>Skills</strong></h4>
+                            </div>
+
+
+                            <p class="black-text text-uppercase font-weight-bold" align="justify">Java Script</p>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 88%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+
+                            <p class="black-text text-uppercase font-weight-bold pt-3" align="justify">CSS3</p>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+
+                            <p class="black-text text-uppercase font-weight-bold pt-3" align="justify">HTML5</p>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 95%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+
+                            <p class="black-text text-uppercase font-weight-bold pt-3" align="justify">Bootstrap</p>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+
+                            <p class="black-text text-uppercase font-weight-bold pt-3" align="justify">PHP</p>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 53%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+
+                </section>
+
 
             </div>
+        </div>
 
-            <div class="container mt-5">
 
-                <div class="row">
-                    <div class="col-md-3 col-sm-6" onclick="https://github.com/huzaifaibrahim786/JavaScript-Assignments;" style="cursor: pointer;">
-                        <div class="card card-block">
-                            <a href="https://github.com/huzaifaibrahim786/JavaScript-Assignments" style="text-decoration: none">
+
+
+
+        <!--Main PortFolio-->
+
+
+        <section class="page-section portfolio" id="portfolio">
+            <div class="container">
+
+                <h1 class="text-center text-uppercase font-weight-bold mt-5 mb-3 mt-5 wow fadeIn" data-wow-delay="0.2s">My projects
+                </h1>
+
+
+                <p class="text-center w-responsive mx-auto text-uppercase font-weight-bold wow fadeIn" data-wow-delay="0.2s">All about my work</p>
+                <div class="line line-v2 wow fadeIn" data-wow-delay="0.2s"></div>
+
+
+                <p class="text-center w-responsive mx-auto my-5">As I am Doing The Course Of Web And Mobile Hybrid Application From Saylani Mass IT Program. So, I am Learning Many Skills And According To That Skills I Have Completed Multiple Assignments Which Are Listed Below</p>
+
+                <div class="container mt-5">
+
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6" onclick="location.href='assignments/H.I Assignment 1/index.html';" style="cursor: pointer;">
+                            <div class="card card-block">
+
                                 <img src="https://static.pexels.com/photos/7096/people-woman-coffee-meeting.jpg" alt="Photo of sunset">
-                                <h5 class="card-title mt-3 mb-3" style="color: black">Assignment 5</h5>
-                                <p class="card-text" style="color: black">JavaScript Assignments Chaper 1 to 20.</p>
-                            </a>
+                                <h5 class="card-title text-center mt-3 mb-3">Assignment 1</h5>
+                                <p class="card-text text-center">Assignment 1 is Periodic Table.</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6" style="cursor: pointer;">
-                        <div class="card card-block">
-                            <a href="https://github.com/huzaifaibrahim786/JavaScript-Assignment-Chapter-21-to-38" style="text-decoration: none">
+                        <div class="col-md-3 col-sm-6" onclick="location.href='assignments/H.I Assignment 2/index.html';" style="cursor: pointer;">
+                            <div class="card card-block">
 
                                 <img src="https://static.pexels.com/photos/7357/startup-photos.jpg" alt="Photo of sunset">
-                                <h5 class="card-title  mt-3 mb-3" style="color: black">Assignment 6</h5>
-                                <p class="card-text" style="color: black">JavaScript Assignment Chapter 21 to 38.</p>
-                            </a>
+                                <h5 class="card-title text-center  mt-3 mb-3">Assignment 2</h5>
+                                <p class="card-text text-center">Assignment 2 is Registration Form.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6" onclick="location.href='assignments/H.I Assignment 3/index.html';" style="cursor: pointer;">
+                            <div class="card card-block">
+
+                                <img src="https://static.pexels.com/photos/262550/pexels-photo-262550.jpeg" alt="Photo of sunset">
+                                <h5 class="card-title text-center  mt-3 mb-3">Assignment 3</h5>
+                                <p class="card-text text-center">Assignment 3 is Saylani Welfare Home Page.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6" onclick="location.href='assignments/H.I Assignment 4/index.html';" style="cursor: pointer;">
+                            <div class="card card-block">
+
+                                <img src="https://static.pexels.com/photos/326424/pexels-photo-326424.jpeg" alt="Photo of sunset">
+                                <h5 class="card-title text-center  mt-3 mb-3">Assignment 4</h5>
+                                <p class="card-text text-center">Full Front End Website (Mobilez.Pk).</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-md-3 col-sm-6" onclick="location.href='assignments/H.I Assignment 7/index.html';" style="cursor: pointer;">
-                        <div class="card card-block">
 
-                            <img src="https://static.pexels.com/photos/262550/pexels-photo-262550.jpeg" alt="Photo of sunset">
-                            <h5 class="card-title  mt-3 mb-3">Assignment 7</h5>
-                            <p class="card-text">Simple Calculator Using JavaScript.</p>
+                </div>
+
+                <div class="container mt-5">
+
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6" onclick="https://github.com/huzaifaibrahim786/JavaScript-Assignments;" style="cursor: pointer;">
+                            <div class="card card-block">
+                                <a href="https://github.com/huzaifaibrahim786/JavaScript-Assignments" style="text-decoration: none">
+                                    <img src="https://static.pexels.com/photos/7096/people-woman-coffee-meeting.jpg" alt="Photo of sunset">
+                                    <h5 class="card-title text-center mt-3 mb-3" style="color: black">Assignment 5</h5>
+                                    <p class="card-text text-center" style="color: black">JavaScript Assignments Chaper 1 to 20.</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6" style="cursor: pointer;">
+                            <div class="card card-block">
+                                <a href="https://github.com/huzaifaibrahim786/JavaScript-Assignment-Chapter-21-to-38" style="text-decoration: none">
+
+                                    <img src="https://static.pexels.com/photos/7357/startup-photos.jpg" alt="Photo of sunset">
+                                    <h5 class="card-title text-center  mt-3 mb-3" style="color: black">Assignment 6</h5>
+                                    <p class="card-text text-center" style="color: black">JavaScript Assignment Chapter 21 to 38.</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6" onclick="location.href='assignments/H.I Assignment 7/index.html';" style="cursor: pointer;">
+                            <div class="card card-block">
+
+                                <img src="https://static.pexels.com/photos/262550/pexels-photo-262550.jpeg" alt="Photo of sunset">
+                                <h5 class="card-title text-center  mt-3 mb-3">Assignment 7</h5>
+                                <p class="card-text text-center">Simple Calculator Using JavaScript.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6" onclick="location.href='assignments/H.I Assignment 8/index.html';" style="cursor: pointer;">
+                            <div class="card card-block">
+
+                                <img src="https://static.pexels.com/photos/326424/pexels-photo-326424.jpeg" alt="Photo of sunset">
+                                <h5 class="card-title text-center  mt-3 mb-3">Assignment 8</h5>
+                                <p class="card-text text-center">Stop Watch Using JS.</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-md-3 col-sm-6" onclick="location.href='assignments/H.I Assignment 8/index.html';" style="cursor: pointer;">
-                        <div class="card card-block">
 
-                            <img src="https://static.pexels.com/photos/326424/pexels-photo-326424.jpeg" alt="Photo of sunset">
-                            <h5 class="card-title  mt-3 mb-3">Assignment 8</h5>
-                            <p class="card-text">Stop Watch Using JS.</p>
+                </div>
+
+                <div class="container mt-5">
+
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6" style="cursor: pointer;">
+                            <div class="card card-block">
+                                <a href="https://github.com/huzaifaibrahim786/JavaScript-Assignment-1-to-67" style="text-decoration: none">
+                                    <img src="https://static.pexels.com/photos/7096/people-woman-coffee-meeting.jpg" alt="Photo of sunset">
+                                    <h5 class="card-title text-center mt-3 mb-3" style="color: black">Assignment 9</h5>
+                                    <p class="card-text text-center" style="color: black">JavaScript Assignments Chaper 1 to 67.</p>
+                                </a>
+                            </div>
                         </div>
+                        <div class="col-md-3 col-sm-6" onclick="location.href='assignments/H.I Assignment 10/index.html';" style="cursor: pointer;">
+                            <div class="card card-block">
+                                <a href="assignments/H.I Assignment 10/index.html" style="text-decoration: none">
+
+                                    <img src="https://static.pexels.com/photos/7357/startup-photos.jpg" alt="Photo of sunset">
+                                    <h5 class="card-title text-center  mt-3 mb-3" style="color: black">Assignment 10</h5>
+                                    <p class="card-text text-center" style="color: black">ToDo Application Using JavaScript.</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6" onclick="location.href='assignments/H.I Assignment 11/index.html';" style="cursor: pointer;">
+                            <div class="card card-block">
+
+                                <img src="https://static.pexels.com/photos/262550/pexels-photo-262550.jpeg" alt="Photo of sunset">
+                                <h5 class="card-title text-center  mt-3 mb-3">Assignment 11</h5>
+                                <p class="card-text text-center">Not Assigned Yet.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6" onclick="location.href='assignments/H.I Assignment 12/index.html';" style="cursor: pointer;">
+                            <div class="card card-block">
+
+                                <img src="https://static.pexels.com/photos/326424/pexels-photo-326424.jpeg" alt="Photo of sunset">
+                                <h5 class="card-title text-center  mt-3 mb-3">Assignment 12</h5>
+                                <p class="card-text text-center">Not Assigned Yet.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row pt-5 mb-4 center-text">
+                    <div class="col-md-12" style="margin: 0px auto; text-align: center;">
+                        <button class="btn btn-outline-black waves-effect"><strong>More</strong></button>
                     </div>
                 </div>
 
+
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+
+
+        <div class="container-fluid pb-5" style="background-color: #e8eaec;">
+            <div id="contact" class="container">
+
+
+                <section class="section contact-section mt-4 mb-5">
+
+                    <h2 class="text-center text-uppercase my-5 pt-5 wow fadeIn" data-wow-delay="0.2s">Contact <strong>me</strong></h2>
+
+                    <p class="text-center w-responsive mx-auto mb-5 pb-4 wow fadeIn" data-wow-delay="0.2s">Feel free to shout me by filling the contact form or visiting our social network sites like Fackebook,Whatsapp,Twitter. </p>
+                    <div class="row wow fadeIn" data-wow-delay="0.4s">
+
+
+                        <div class="col-md-8 mb-5">
+                            <form>
+
+                                <div class="row">
+
+
+                                    <div class="col-md-6">
+                                        <div class="md-form mb-0">
+                                            <div class="md-form mb-0">
+                                                <input type="text" id="form41" class="form-control">
+                                                <label for="form41" class="">Your name</label>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <div class="md-form mb-0">
+                                            <div class="md-form mb-0">
+                                                <input type="text" id="form52" class="form-control">
+                                                <label for="form52" class="">Your email</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="md-form mb-0">
+                                            <input type="text" id="form51" class="form-control">
+                                            <label for="form51" class="">Subject</label>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+                                <div class="row">
+
+                                    <div class="col-md-12">
+                                        <div class="md-form mb-0">
+                                            <textarea type="text" id="form76" class="md-textarea form-control" rows="3"></textarea>
+                                            <label for="form76">Your message</label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </form>
+                            <br>
+                            <button class="btn btn-outline-black waves-effect"><strong>Send</strong></button>
+                        </div>
+
+
+                        <div class="col-md-4">
+                            <ul class="contact-icons list-unstyled text-center">
+                                <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                                    <p>Watur Pump, Karachi, Pakistan</p>
+                                </li>
+                                <li><i class="fas fa-phone fa-2x"></i>
+                                    <p>+ 0900 786 01</p>
+                                </li>
+                                <li><i class="fas fa-envelope fa-2x"></i>
+                                    <p>abc@example.com</p>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                </section>
+
+
             </div>
 
-
         </div>
-    </section>
 
-    <section id="contact" class="content-section text-center">
-        <div class="contact-section">
+
+        <!-- Site footer -->
+        <footer class="site-footer" style="margin-top: -50px;">
             <div class="container">
-                <h2 class="mt-5 pt-5">Contact Us</h2>
-                <p>Feel free to shout us by feeling the contact form or visiting our social network sites like Fackebook,Whatsapp,Twitter.</p>
-                <div class="">
-                    <div class="">
-                        <form class="form-horizontal"><br>
-                            <div class="form-group">
-                                <label for="exampleInputName2">Name</label>
-                                <input type="text" class="form-control" id="exampleInputName2" placeholder="Jane Doe">
-                            </div>
-                            <div class="form-group">
-                                <label for="exampleInputEmail2">Email</label>
-                                <input type="email" class="form-control" id="exampleInputEmail2" placeholder="jane.doe@example.com">
-                            </div>
-                            <div class="form-group ">
-                                <label for="exampleInputText">Your Message</label>
-                                <textarea class="form-control" placeholder="Description"></textarea>
-                            </div>
-                            <button type="submit" class="btn btn-default bg-light">Send Message</button>
-                        </form>
+                <div class="row">
+                    <div class="col-sm-12 col-md-5 mr-5">
+                        <h6>About</h6>
+                        <p class="text-justify">H.I Web Design & Development <i>CODE WANTS TO BE SIMPLE </i> is an initiative to help the upcoming programmers with the code. we focuses on providing the most efficient code or snippets as the code wants to be simple. We will help
+                            programmers build up concepts in different programming languages that include HTML, CSS, JavaScript, Angular, ReactNative, Bootstrap, PHP, Android, SQL and Algorithm.</p>
+                    </div>
 
+                    <div class="col-xs-6 col-md-3">
+                        <h6>Skills</h6>
+                        <ul class="footer-links">
+                            <li><a href="#">Html</a></li>
+                            <li><a href="#">Css</a></li>
+                            <li><a href="#">BootStrap</a></li>
+                            <li><a href="#">JavaScript</a></li>
+                            <li><a href="#">ReactNative</a></li>
+                            <li><a href="#">Mongo DB</a></li>
+                        </ul>
+                    </div>
 
+                    <div class="col-xs-6 col-md-3">
+                        <h6>Quick Links</h6>
+                        <ul class="footer-links">
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="#">Contribute</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-sm-6 col-xs-12">
+                        <p class="copyright-text">Copyright &copy; 2020 All Rights Reserved by
+                            <a href="#">H.I Web Design & Development</a>.
+                        </p>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <ul class="social-icons">
+                            <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+                            <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+                        </ul>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </footer>
 
-    <section class="footer bg-secondary">
-        <div class="footer">
-            <h5 class="footer-text"><br>COPYRIGHT &copy HUZAIFA IBRAHIM 2020</h5>
-        </div>
-    </section>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js">
-    </script>
-    <script src="css/progresscircle.js"></script>
-    <script>
-        $(function() {
 
-            $('.circlechart').circlechart();
 
-        });
-    </script>
+        <!-- Bootstrap core JavaScript -->
+        <script type="text/javascript" src="assets/bootstrap/js/bootstrap.min.js"></script>
 
 </body>
 

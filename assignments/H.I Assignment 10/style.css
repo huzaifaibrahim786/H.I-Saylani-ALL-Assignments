@@ -1,0 +1,39 @@
+body {
+    margin: 0px;
+    background-color: #501b1d;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+table {
+    margin: 10px auto;
+    border: 5px solid white;
+}
+
+th,
+td {
+    border: 2px solid white;
+    margin-left: 190px;
+    margin-right: 190px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 250px;
+}
+
+#task,
+#time {
+    width: 300px;
+    display: inline;
+    height: 50px;
+}
+
+.button {
+    margin: 0 auto;
+}
+
+#nothing {
+    font-size: 25px;
+}

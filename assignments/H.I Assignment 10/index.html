@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo Application</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap/js/bootstrap.min.js">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <h1 class="mt-5 mb-5">TODO APPLICATION</h1>
+
+
+
+    <div>
+
+			Enter Your Task <br><input type="text" id="task" class="form-control" placeholder="Enter Your Task" required><br><br>
+
+	Enter Your Time <br><input type="time" id="time" class="form-control" placeholder="Enter Your Task Time" required>
+    </div>
+    <br>
+    <div>
+        <button id="addTask" onclick="addTask()">Add To List</button>
+        <button id="deleteAll" onclick="deleteAll()">Delete All</button>
+    </div>
+    <br><br>
+    <div>
+
+        <p id="nothing">You Did Not Add Any Thing Yet In Todo List</p>
+
+    </div>
+    <div id="main" class="table-responsive">
+
+
+        <table id="list">
+            <thead id="thead">
+                <th>Task</th>
+                <th>Time</th>
+                <th>Edit / Save</th>
+                <th>Delete</th>
+            </thead>
+
+        </table>
+
+
+
+    </div>
+
+
+</body>
+<script src="app.js"></script>
+
+</html>
