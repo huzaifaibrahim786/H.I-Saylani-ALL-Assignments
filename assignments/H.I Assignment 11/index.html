@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <title>Quiz App</title>
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="start" id="start" style="display:block">
+            <div>
+                <button class="btn" id="btn1">Start Quiz</button>
+            </div>
+
+        </div>
+        <div class="questions" id="questions" style="display:none">
+            <div class="upper">
+                <div>
+                    <h1 class="main-heading">Web & Mobile Hybrid App Development</h1>
+                    <div>
+                        <div class="log">
+                            <img src="user.png" height="60px" width="60px" /><span class="logout">Log Out</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="question-no">
+                <Br>
+                <div class="true">
+                    <div class="divs"></div>
+                    <div class="divs"></div>
+                    <div class="divs"></div>
+                    <div class="divs"></div>
+                    <div class="divs"></div>
+                </div>
+                <div class="questionof">
+                    <h1 class="head">Question <span id="current">1</span> Of<span id="currentTotal"> 5</span></h1>
+                </div>
+                <br>
+            </div>
+            <div class="question-container">
+                <div class="left">
+                    <h2 id="quest">HTML stands for?</h2>
+                </div>
+                <div class="right">
+                    <div class="this1"><button class="options">A</button>
+                        <h2 id="option1" class="option" value="A">hyper text</h2>
+                    </div>
+                    <div class="this1"><button class="options">B</button>
+                        <h2 id="option2" class="option" value="B">This is first option</h2>
+                    </div>
+                    <div class="this1"><button class="options">C</button>
+                        <h2 id="option3" class="option" value="C">This is first option</h2>
+                    </div>
+                    <div class="this1"><button class="options">D</button>
+                        <h2 id="option4" class="option" value="D">This is first option</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="copy">&copy; Developed By Huzaifa Ibrahim</div>
+        </div>
+        <div class="start" id="score" style="display:none">
+            <img src="tick.png" height="" width="110px" alt="110px" id="emoji" />
+            <h2 id="scoreShower">Score : 100%</h2>
+        </div>
+
+    </div>
+
+
+</body>
+<script src="app.js"></script>
+
+</html>
