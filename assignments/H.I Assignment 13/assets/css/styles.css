@@ -1,0 +1,127 @@
+.card {
+    margin: 10px!important;
+    width: 100%;
+}
+
+.row {
+    text-align: center;
+}
+
+.row2 {
+    text-align: center;
+}
+
+.btn-default {
+    width: fit-content;
+    background-color: silver!important;
+    align-content: center;
+    padding-left: 150px;
+    padding-right: 150px;
+    height: 500px;
+    margin: 5px!important;
+}
+
+.btn-default2 {
+    width: fit-content;
+    background-color: silver!important;
+    align-content: center;
+    padding-left: 130px;
+    padding-right: 130px;
+    height: 500px;
+    margin: 5px!important;
+}
+
+.btn-admin {
+    width: fit-content;
+    background-color: silver!important;
+    align-content: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    height: 250px;
+    margin: 13px!important;
+    margin-top: 100px!important;
+    margin-bottom: 100px!important;
+    border: 2px solid black;
+}
+
+.body-content {
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 15px;
+    float: left;
+}
+
+.left-menu {
+    float: left;
+    width: 50px;
+}
+
+.right-container {
+    margin-top: 10px;
+    padding-left: 50px;
+    width: calc(100% - 50px);
+    float: left;
+}
+
+table,
+th,
+tr,
+td {
+    margin: 10px auto;
+    width: 50%;
+    border: 5px solid black;
+    text-align: center;
+}
+
+.answerss,
+.answers_head,
+.result_td {
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 60px;
+    width: fit-content;
+    border: 5px solid black;
+    text-align: center;
+}
+
+.start {
+    margin: 50px auto;
+    height: 520px;
+    max-height: 1520px;
+    max-width: 900px;
+    background-color: #1b1924;
+    align-content: center;
+    text-align: center;
+    box-shadow: 1px 2px 13px 6px #0000005c;
+}
+
+.name {
+    margin-top: 20px;
+    padding: 15px 30px 15px 30px;
+    font-weight: 800;
+    font-size: 20px;
+    border-style: none;
+    border-radius: 40px;
+    outline: none;
+    font-family: lato;
+    color: #1b1924;
+}
+
+.btn_quiz {
+    padding: 15px 30px 15px 30px;
+    font-weight: 800;
+    font-size: 20px;
+    border-style: none;
+    border-radius: 40px;
+    outline: none;
+    font-family: lato;
+    color: #1b1924;
+}
+
+input[type=radio],
+input.radio {
+    float: left;
+    clear: none;
+    margin: 2px 0 0 2px;
+}

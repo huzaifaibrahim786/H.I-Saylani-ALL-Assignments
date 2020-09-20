@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Firebase DB Demo</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap/js/bootstrap.min.js">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-database.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-analytics.js"></script>
+
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyAuQN4E6i2fPx6AdMXuTV-18CY4H84oAB4",
+            authDomain: "fir-database-demo-a3929.firebaseapp.com",
+            databaseURL: "https://fir-database-demo-a3929.firebaseio.com",
+            projectId: "fir-database-demo-a3929",
+            storageBucket: "fir-database-demo-a3929.appspot.com",
+            messagingSenderId: "519902130674",
+            appId: "1:519902130674:web:3f10ae500ae0c2eea5bb6b",
+            measurementId: "G-BG93J4JMBH"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        firebase.analytics();
+    </script>
+</head>
+
+<body>
+
+
+    <h1 class="mt-5 mb-5">TODO APPLICATION</h1>
+
+
+
+    <div>
+
+        Enter Your Task
+        <br>
+        <input type="text" id="task" class="form-control" placeholder="Enter Your Task" required>
+        <br><br> Enter Your Time
+        <br>
+        <input type="time" id="time" class="form-control" placeholder="Enter Your Task Time" required>
+    </div>
+    <br>
+    <div>
+        <button id="addTask" class="button" onclick="addTask()">Add To List</button>
+        <button id="deleteAll" class="button" onclick="deleteAll()">Delete All</button>
+    </div>
+    <br><br>
+    <div>
+
+        <p id="nothing">You Did Not Add Any Thing Yet In Todo List</p>
+
+    </div>
+    <div id="main" class="table-responsive">
+
+
+        <table id="list">
+            <thead id="thead">
+                <th style="display: none;">Key</th>
+                <th>Task</th>
+                <th>Time</th>
+                <th>Edit / Save</th>
+                <th>Delete</th>
+            </thead>
+
+        </table>
+
+
+
+    </div>
+
+
+</body>
+<script src="app.js"></script>
+<!-- JS, Popper.js, and jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+</html>
